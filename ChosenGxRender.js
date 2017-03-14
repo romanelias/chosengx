@@ -47,13 +47,13 @@ function ChosenGx($)
 		});
 		
 		gx.fx.obs.addObserver('gx.control.onafterpropertychange',this,function(c) {
-			if ($(c.control).hasClass('chosen-select') && c.property == "Visible" && c.value == true) {
+			if (($(c.control).hasClass('chosen-select') || $(c.control).hasClass('chosen-multi')) && c.property == "Visible" && c.value == true) {
 				$(c.control).hide();
 			}
-			if ($(c.control).hasClass('chosen-select') && c.property == "Value") {
+			if (($(c.control).hasClass('chosen-select') || $(c.control).hasClass('chosen-multi')) && c.property == "Value") {
 				$(c.control).trigger("chosen:updated.chosen");
 			}
-			if ($(c.control).hasClass('chosen-select') && c.property == "Enabled") {
+			if (($(c.control).hasClass('chosen-select') || $(c.control).hasClass('chosen-multi')) && c.property == "Enabled") {
 				$(c.control).trigger("chosen:updated.chosen");
 			}	
 		});
