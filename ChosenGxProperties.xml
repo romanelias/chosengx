@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Content xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Object id="ChosenGx">
+    <Group>
+      <Name>General</Name>
+      <Type>Main</Type>
+      <Childs>
+        <Prop>
+          <Id>Separator</Id>
+          <Name>Separator</Name>
+          <Type>Text</Type>
+          <Default>;</Default>
+          <Metadata />
+        </Prop>
+        <Group>
+          <Name>Textos</Name>
+          <Childs>
+            <Prop>
+              <Id>SinResultados</Id>
+              <Name>NoResults</Name>
+              <Type>Text</Type>
+              <Default>¡Uy, nada encontrado!</Default>
+              <Metadata />
+            </Prop>
+            <Prop>
+              <Id>EmptyItem</Id>
+              <Name>EmptyItem</Name>
+              <Type>Text</Type>
+              <Default>Seleccione un texto</Default>
+              <Metadata />
+            </Prop>
+          </Childs>
+        </Group>
+      </Childs>
+    </Group>
+  </Object>
+</Content>

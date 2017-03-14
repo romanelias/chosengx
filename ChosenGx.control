@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<ControlDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>1</Version>
+  <DataSourceAllowed>None</DataSourceAllowed>
+  <CustomDataSources />
+  <AutoGrowSupported>false</AutoGrowSupported>
+  <IncludeInControlInfo>false</IncludeInControlInfo>
+  <SupportFiles>
+    <File>chosen-sprite.png</File>
+    <File>chosen-sprite@2x.png</File>
+  </SupportFiles>
+  <iOS_SupportFiles />
+  <Android_SupportFiles />
+  <BB_SupportFiles />
+  <RuntimeRender>ChosenGxRender.js</RuntimeRender>
+  <HeightPropertyName>Height</HeightPropertyName>
+  <WidthPropertyName>Width</WidthPropertyName>
+  <ResizeSupported>false</ResizeSupported>
+  <ObjClass>ChosenGx</ObjClass>
+  <Description>ChosenGx</Description>
+  <Id>00000000-0000-0000-0000-000000000000</Id>
+  <Name>ChosenGx</Name>
+  <Platforms />
+  <ShowMethod>show</ShowMethod>
+  <ReferencedFiles>
+    <File>chosen.css</File>
+    <File>chosen.jquery.js</File>
+  </ReferencedFiles>
+  <iOS_ReferencedFiles />
+  <Android_ReferencedFiles />
+  <BB_ReferencedFiles />
+  <Constructor>
+    <Parameters />
+    <Name>ChosenGx</Name>
+  </Constructor>
+  <PropertiesDefinition>ChosenGxProperties.xml</PropertiesDefinition>
+  <DesignRender>ChosenGxRender.xsl</DesignRender>
+  <ToolboxIcon>chosengx.ico</ToolboxIcon>
+  <ControlType />
+  <Categories />
+  <Events />
+  <Methods />
+  <Actions />
+  <IsPublic>true</IsPublic>
+  <Android_IsScrollable>false</Android_IsScrollable>
+</ControlDefinition>
